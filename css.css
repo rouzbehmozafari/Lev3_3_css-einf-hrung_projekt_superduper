@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@400;500;700&display=swap');
+
+/* font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif; */
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+header {
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+
+}
+header div:nth-child(1) {
+    padding: 10px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+div:nth-child(2) {
+    background-image: linear-gradient(45deg,#3dc8d5, #8507e1, #ccc);
+    /* width: 30vw;
+    margin: 25vh auto; */
+    margin: 25vh auto;
+    width: 300px;
+    /* height: 300px; */
+    text-align: center;
+}
+
+div:nth-child(2):hover {
+    background-image: linear-gradient(45deg, #ccc, #8507e1,#3dc8d5);
+
+}
+
+header div  h1 {
+    font-size: 3em;
+    text-align: center; 
+    padding: .3em;
+    font-family: 'Gilda Display', serif;
+}
+
+header div p {
+    padding: 1em;
+    padding-top: 3em;
+}
+
+
+
+
+
+nav {
+    text-align: end ;
+    margin-bottom: 5vh;
+}
+
+li {
+    list-style: none;
+    margin-right: 5vw;
+    color: #fff;
+}
+
+/* 
+
+content: 
+
+
+Stuff we did
+Because our roots run deep in design and technology, we see every challenge for what it is. No pre-packaged solutions here. We are quick to concept, develop and prototype so the fine-tuning can begin ASAP. The end result is an all-you, all-custom design that captures attention and leaves an impression. You know, something awesome.
+Here’s some stuff that we’re proud to be part of:
+PMU
+Webdesign
+Agrotechs
+Digital product design
+Namu Cursos
+Webdesign, Branding */
+
+
+
+/* Assets:
+
+farbe: #333, #fff, #3dc8d5, #8507e1, #ccc
+link-background
+bild-1
+bild-2
+bild-3
+
+Hinweis: 
+linear-gradient
+:hover Selector */
