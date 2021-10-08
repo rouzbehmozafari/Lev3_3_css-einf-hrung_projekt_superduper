@@ -9,6 +9,13 @@ font-family: 'Maven Pro', sans-serif; */
     font-size: 15px;
 }
 
+body {
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 header {
     background-color: #333;
     width: 100vw;
@@ -20,37 +27,47 @@ header div:nth-child(1) {
     padding: 10px
 }
 
+header div:first-child a {
+    font-size: 1.5em;
+}
+
 a {
     color: white;
     text-decoration: none;
 }
 
 div:nth-child(2) {
-    background-image: linear-gradient(45deg,#3dc8d5, #8507e1, #ccc);
+    background-image: linear-gradient(45deg, #8507e1,#3dc8d5);
+
     /* width: 30vw;
     margin: 25vh auto; */
-    margin: 25vh auto;
+    /* margin: 20vh auto ; */
     width: 300px;
+
+    margin-top: 25vh;
+    margin-right: auto;
+    margin-left: auto;
+
     /* height: 300px; */
     text-align: center;
 }
 
 div:nth-child(2):hover {
-    background-image: linear-gradient(45deg, #ccc, #8507e1,#3dc8d5);
+    background-image: linear-gradient(45deg,#3dc8d5, #8507e1);
 
 }
 
 header div  h1 {
     font-size: 3em;
     text-align: center; 
-    padding: .1em .3em;
+    padding: .1em .7em;
     font-family: 'Gilda Display', serif;
     text-align: left;
     
 }
 
 header div p {
-    padding: 1em;
+    padding: .7em;
     padding-top: 3em;
 }
 
@@ -61,6 +78,11 @@ header div p {
 nav {
     text-align: end ;
     margin-bottom: 5vh;
+    margin-top: 17vh;
+}
+
+nav:hover {
+    color: white;
 }
 
 li {
@@ -69,31 +91,38 @@ li {
     color: #fff;
 }
 
+section {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+section p {
+    margin-right: 50vh;
+    margin: 5px  auto 20px auto; 
+}
+
+h1 {
+    font-size: 2em;
+    margin: 15px auto 1px auto;
+}
+
+img {
+    width: 50vw;
+    border-radius: 20px;
+    margin-top: 15px;
+}
 /* 
 
 content: 
 
 
-Stuff we did
-Because our roots run deep in design and technology, we see every challenge for what it is. No pre-packaged solutions here. We are quick to concept, develop and prototype so the fine-tuning can begin ASAP. The end result is an all-you, all-custom design that captures attention and leaves an impression. You know, something awesome.
-Here’s some stuff that we’re proud to be part of:
-PMU
+
 Webdesign
 Agrotechs
 Digital product design
 Namu Cursos
 Webdesign, Branding */
 
-
-
 /* Assets:
 
 farbe: #333, #fff, #3dc8d5, #8507e1, #ccc
-link-background
-bild-1
-bild-2
-bild-3
-
-Hinweis: 
-linear-gradient
-:hover Selector */
