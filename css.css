@@ -43,8 +43,10 @@ div:nth-child(2):hover {
 header div  h1 {
     font-size: 3em;
     text-align: center; 
-    padding: .3em;
+    padding: .1em .3em;
     font-family: 'Gilda Display', serif;
+    text-align: left;
+    
 }
 
 header div p {
