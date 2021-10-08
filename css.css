@@ -9,12 +9,7 @@ font-family: 'Maven Pro', sans-serif; */
     font-size: 15px;
 }
 
-body {
-    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+
 
 header {
     background-color: #333;
@@ -31,9 +26,13 @@ header div:first-child a {
     font-size: 1.5em;
 }
 
-a {
-    color: white;
+header a {
+    color: #ccc;
     text-decoration: none;
+}
+header a:hover {
+    color: white;
+
 }
 
 div:nth-child(2) {
@@ -92,8 +91,17 @@ li {
 }
 
 section {
-    margin: 20px;
+    margin: auto 25vw;
     margin-bottom: 30px;
+}
+
+section:first-child {
+    margin-left: 20px ;
+    margin-bottom: 30px;
+}
+
+section:first-child h1{
+margin-top: -20px;
 }
 
 section p {
